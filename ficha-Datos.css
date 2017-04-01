@@ -1,0 +1,26 @@
+<style>
+
+body{
+  background:	#8FBC8F;
+  font-size:20px;
+
+}
+
+h1{
+  padding:40px;
+  font-size:35px;}
+h1,form{
+  text-align:center;
+  font-weight:bold;
+}
+
+.records{
+  text-align:center;
+}
+
+.botón{
+  width:70px;
+  height:30px;
+}
+
+</style>

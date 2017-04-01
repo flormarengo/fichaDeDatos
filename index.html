@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="datos.css">
+  </head>
+  <body>
+    <h1>DATOS DEL USUARIO</h1>
+    <form action="#">
+    Nombre:
+    <input type="text" id="name" name="nombre" placeholder="Ingrese su nombre"><br><br>
+    Apellido:
+    <input type="text" id="lastname" name="apellido" placeholder="Ingrese su apellido"><br><br>
+    Num DNI:
+    <input type="text" id="dni" name="dni" class="id" placeholder="Ingrese su DNI"><br><br>
+    Dirección:
+    <input type="text" id="address" name="dirección" placeholder="Ingrese su direccón"><br><br>
+    <!--botón-->
+    <input type="button" id="enviar" value="Enviar" onclick="ficha()" class="botón">
+  </form>
+  <br><br>
+  <div id="records" class="records"></div>
+
+
+
+  <script src="datos.js">
+  </script>
+
+  </body>
+</html>
